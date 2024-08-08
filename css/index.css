@@ -115,6 +115,39 @@ input {
 				border-radius: 1rem;
 				background: white;
 				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 3rem;
+				text-transform: capitalize;
+				margin: 1.25rem 0;
+				.head {
+					display: flex;
+					justify-content: space-between;
+					text-transform: capitalize;
+					width: 100%;
+					h2 {
+						color: var(--pryTextCol);
+					}
+					.timeframe-container {
+						display: flex;
+						text-align: center;
+						gap: 1rem;
+						.timeframe {
+							.value {
+								font-weight: 800;
+								color: var(--pryTextCol);
+							}
+						}
+					}
+				}
+			}
+
+			.upcoming-exam {
+				padding: 1rem;
+				border-radius: 1rem;
+				background: white;
+				display: flex;
+				flex-direction: column;
 				align-items: center;
 				gap: 3rem;
 				text-transform: capitalize;
@@ -123,9 +156,77 @@ input {
 					display: flex;
 					justify-content: space-between;
 					width: 100%;
-					.timeframe {
+					text-transform: capitalize;
+					h2 {
+						color: var(--pryTextCol);
+					}
+				}
+				.body {
+					width: 100%;
+					ul {
 						display: flex;
-						text-align: center;
+						flex-direction: column;
+						gap: 1.5rem;
+						li {
+							display: flex;
+							align-items: center;
+							justify-content: space-between;
+							width: 100%;
+							color: var(--pryTextCol);
+							p {
+								font-weight: 700;
+							}
+							p.id {
+								color: var(--secBgCol);
+								font-weight: 700;
+							}
+							.class-wrap {
+								display: flex;
+								align-items: center;
+								gap: 0.5rem;
+								img {
+									width: 30px;
+								}
+								.class {
+									color: black;
+									font-size: 11px;
+									font-weight: 200;
+									.class-value {
+										font-size: 14px;
+										font-weight: 700;
+										color: var(--secBgCol);
+									}
+								}
+							}
+						}
+					}
+
+					.foot {
+						display: flex;
+						justify-content: space-between;
+						align-items: center;
+						width: 100%;
+						.pagination {
+							display: flex;
+							padding: 1rem 0;
+							gap: 0.5rem;
+							.page-numbers {
+								display: flex;
+								gap: 0.5rem;
+
+								.page-number:nth-child(1) {
+									color: white;
+									background-color: var(--secBgCol);
+								}
+								.page-number {
+									border: 1px solid var(--secBgCol);
+									padding: 0.5rem 0.75rem;
+									border-radius: 9999px;
+									color: var(--secBgCol);
+									background-color: white;
+								}
+							}
+						}
 					}
 				}
 			}
@@ -146,7 +247,7 @@ input {
 					display: flex;
 					/* align-items: center; */
 					img {
-						width: 60px;
+						width: 10px;
 					}
 				}
 			}
@@ -156,6 +257,30 @@ input {
 				.head {
 					display: flex;
 					justify-content: space-between;
+				}
+				ul {
+					padding: 0.5rem 0;
+					li {
+						display: flex;
+						justify-content: space-between;
+						padding: 0.5rem 0;
+						color: var(--pryTextCol);
+						.list-item {
+							display: flex;
+							align-items: center;
+							gap: 0.5rem;
+						}
+					}
+					button {
+						padding: 1rem 2rem;
+						color: var(--pryTextCol);
+						background-color: var(--pryBgCol);
+						font-weight: 700;
+						border-radius: 9999px;
+						width: 100%;
+						border: none;
+						text-transform: capitalize;
+					}
 				}
 			}
 		}
