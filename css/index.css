@@ -53,6 +53,14 @@ input {
 			}
 			li {
 				padding: 1rem;
+				a {
+					display: flex;
+					align-items: center;
+					gap: 0.75rem;
+					img {
+						width: 30px;
+					}
+				}
 			}
 		}
 		div {
@@ -267,6 +275,16 @@ input {
 				.head {
 					display: flex;
 					justify-content: space-between;
+					.plus {
+						border-radius: 9999px;
+						padding: 0.5rem 0.8rem;
+						background-color: var(--secBgCol);
+						color: white;
+						text-align: center;
+						font-weight: 900;
+						font-size: 23px;
+						cursor: pointer;
+					}
 				}
 				ul {
 					padding: 0.5rem 0;

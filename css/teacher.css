@@ -274,34 +274,6 @@ button {
 							}
 						}
 					}
-
-					/* .foot {
-						display: flex;
-						justify-content: space-between;
-						align-items: center;
-						width: 100%;
-						.pagination {
-							display: flex;
-							padding: 1rem 0;
-							gap: 0.5rem;
-							.page-numbers {
-								display: flex;
-								gap: 0.5rem;
-
-								.page-number:nth-child(1) {
-									color: white;
-									background-color: var(--secBgCol);
-								}
-								.page-number {
-									border: 1px solid var(--secBgCol);
-									padding: 0.5rem 0.75rem;
-									border-radius: 9999px;
-									color: var(--secBgCol);
-									background-color: white;
-								}
-							}
-						}
-					} */
 				}
 			}
 		}
