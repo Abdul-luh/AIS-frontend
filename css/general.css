@@ -1,0 +1,22 @@
+:root {
+	--secBgCol: #4d44b5;
+	--pryBgCol: #f3f4ff;
+	--pryTextCol: #303972;
+	--pryLinkCol: #5b86e5;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+input {
+	outline: none;
+	border: none;
+}

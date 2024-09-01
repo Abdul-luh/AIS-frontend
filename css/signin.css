@@ -1,0 +1,56 @@
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	form {
+		max-width: 400px;
+		width: 100%;
+		padding: 1rem;
+		gap: 1rem;
+		input {
+			display: block;
+			width: 100%;
+			font-size: 15px;
+			border: none;
+			border-bottom: 1px solid black;
+		}
+		div {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 1.5rem 0;
+		}
+		.formbody {
+			gap: 1.5rem;
+			a {
+				align-self: flex-end;
+				color: var(--pryLinkCol);
+			}
+		}
+		button {
+			display: block;
+			width: 100%;
+			padding: 0.5rem;
+			border-radius: 0.5rem;
+			cursor: pointer;
+		}
+		.submit {
+			background: #000;
+			color: white;
+			&:hover {
+				background: grey;
+			}
+		}
+		.register {
+			border: 1px solid var(--pryLinkCol);
+			color: var(--pryLinkCol);
+			background: none;
+			&:hover {
+				background: var(--pryLinkCol);
+				color: white;
+			}
+		}
+	}
+}
