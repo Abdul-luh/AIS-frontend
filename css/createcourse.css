@@ -1,0 +1,33 @@
+.main .dashboardcanvas {
+	background: var(--pryBgCol);
+	height: 100%;
+	min-height: 100vh;
+	padding: 4rem 1rem 1rem 1rem;
+
+	.canvasbody {
+		form {
+			background-color: var(--secBgCol);
+			padding-top: 3rem;
+			border-radius: 1rem;
+			display: flex;
+			justify-content: center;
+			div {
+				background-color: white;
+				padding: 2rem 8rem;
+				width: 100%;
+				div {
+					label {
+						padding: 0.25rem;
+					}
+					input {
+						display: block;
+						border: 1px solid gray;
+						padding: 0.25rem;
+						width: 20rem;
+						border-radius: 2px;
+					}
+				}
+			}
+		}
+	}
+}

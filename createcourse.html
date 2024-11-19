@@ -4,7 +4,9 @@
 		<meta charset="UTF-8" />
         <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./css/student.css" />
+		<link rel="stylesheet" href="./css/general.css" />
+		<link rel="stylesheet" href="./css/teacher.css" />
+		<link rel="stylesheet" href="./css/createcourse.css" />
 		<title>AIS</title>
 	</head>
 	<body>
@@ -49,179 +51,50 @@
 					<li>
 						<a href="/latest-activity.html"
 							><img src="/images/activity-icon.svg" alt="icon" /></a>
+						</li>
 				</ul>
 				<div>
 					<p>Akademi - School Admission Dashboard</p>
 				</div>
 			</div>
-			<div class="main">
+			<div class="main create-course">
 				<div class="dashboardcanvas">
 					<div class="canvasheader">
-						<h1>Students</h1>
-						<div class="header">
-						<!-- <img src="/images/setting.svg" alt="" />
-						<img src="/images/setting.svg" alt="" /> -->
-						<img src="./images/profilePicture.svg" alt="" />
-						<img src="./images/profilePicture.svg" alt="" />
-						<div class="personalInfo">
-							<div>
-								<h4>Nabila A.</h4>
-								<p>Admin</p>
-							</div>
-							<img src="./images/profilePicture.svg" alt="" />
-						</div>
+						<h1>Create Course</h1>
 					</div>
-					</div>
-					<div class="canvasheader">
-						<div class="searchbar">
-							<img src="/images/search.svg" alt="" />
-							<input type="search" placeholder="search here" />
-						</div>
-						<div class="btn-wrap">
-							<button class="newest">newest</button>
-							<button class="blue-btn">new student</button>
-						</div>
-					</div>
-
-					<!-- UPCOMING EXAMINATION  -->
 
                     <div class="canvasbody">
-                        <table>
-                            <thead>
-                                <th>name</th>
-                                <th>id</th>
-                                <th>date</th>
-                                <th>parent name</th>
-                                <th>city</th>
-                                <th>contact</th>
-                                <th>grade</th>
-                                <th>action</th>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="name">
-                                        <img src="./images/profilePicture.svg" alt="" />
-                                             Samantha William
-                                    </td>
-                                    <td class="id"> 
-                                        ID 123456789
-                                    </td>
-                                    <td>
-                                        March 25, 2021
-                                    </td>
-                                    <td>
-                                        Mana William             
-                                    </td>
-                                    <td>
-                                       Jakarta          
-                                    </td>
-                                    <td>
-                                        <div class="class-wrap">
-                                            <img src="/images/call-icon.svg" alt="" />
-                                            <img src="/images/mail button.svg" alt="" />
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="class-wrap">
-                                            <p class="class">
-                                              VII A
-                                            </p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <img src="/images/dots.svg" alt="" />
-                                    </td>
-                        
-                        
-                                </tr>
-                                <tr>
-                                    <td class="name">
-                                        <img src="./images/profilePicture.svg" alt="" />
-                                             Samantha William
-                                    </td>
-                                    <td class="id"> 
-                                        ID 123456789
-                                    </td>
-                                    <td>
-                                        March 25, 2021
-                                    </td>
-                                    <td>
-                                        Mana William             
-                                    </td>
-                                    <td>
-                                       Jakarta          
-                                    </td>
-                                    <td>
-                                        <div class="class-wrap">
-                                            <img src="/images/call-icon.svg" alt="" />
-                                            <img src="/images/mail button.svg" alt="" />
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="class-wrap">
-                                            <p class="class">
-                                              VII A
-                                            </p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <img src="/images/dots.svg" alt="" />
-                                    </td>
-                        
-                        
-                                </tr>
-                                <tr>
-                                    <td class="name">
-                                        <img src="./images/profilePicture.svg" alt="" />
-                                             Samantha William
-                                    </td>
-                                    <td class="id"> 
-                                        ID 123456789
-                                    </td>
-                                    <td>
-                                        March 25, 2021
-                                    </td>
-                                    <td>
-                                        Mana William             
-                                    </td>
-                                    <td>
-                                       Jakarta          
-                                    </td>
-                                    <td>
-                                        <div class="class-wrap">
-                                            <img src="/images/call-icon.svg" alt="" />
-                                            <img src="/images/mail button.svg" alt="" />
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <div class="class-wrap">
-                                            <p class="class">
-                                              VII A
-                                            </p>
-                                        </div>
-                                    </td>
-                                    <td>
-                                        <img src="/images/dots.svg" alt="" />
-                                    </td>
-                        
-                        
-                                </tr>
-                            </tbody>
-                        </table>
+                      <form action="" >
+                        <div>
+                            <div>
+                                
+                                <label for="name">Name</label>
+                                <input type="text" name="name" placeholder="name" required />
+                            </div>
 
-                        <div class="foot">
-								<div>Showing 1-5 from 100 data</div>
-								<div class="pagination">
-									<img src="./images/arrow-left.svg" alt="" />
+                            <div>
 
-									<div class="page-numbers">
-										<p class="page-number">1</p>
-										<p class="page-number">2</p>
-										<p class="page-number">3</p>
-									</div>
-									<img src="./images/arrow-right.svg" alt="" />
-								</div>
-							</div>
+                                <label for="department">Department</label>
+                                <input type="text" name="department" required />
+                            </div>
+
+                            <div>
+
+                                <label for="faculty">Faculty</label>
+                                <input type="text" name="faculty" required />
+                            </div>
+
+                            <div>
+
+                                <label for="course-code">Course Code</label>
+                                <input type="text" name="course-code"  required />
+                            </div>
+
+                        </div>
+
+                      </form>
+
+                       
                     </div>
 
 				</div>
